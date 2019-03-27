@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41352FF7E17D10C4E3D979A6 /* libPods-YTAFNetworkingInterpretation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 344921BDE33784D4990E9362 /* libPods-YTAFNetworkingInterpretation.a */; };
 		AB3C4129224B227500865F06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3C4128224B227500865F06 /* AppDelegate.m */; };
 		AB3C412C224B227500865F06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3C412B224B227500865F06 /* ViewController.m */; };
 		AB3C412F224B227500865F06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3C412D224B227500865F06 /* Main.storyboard */; };
@@ -16,6 +17,8 @@
 		AB3C413A224B227700865F06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3C4139224B227700865F06 /* main.m */; };
 		AB3C4144224B227700865F06 /* YTAFNetworkingInterpretationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3C4143224B227700865F06 /* YTAFNetworkingInterpretationTests.m */; };
 		AB3C414F224B227700865F06 /* YTAFNetworkingInterpretationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3C414E224B227700865F06 /* YTAFNetworkingInterpretationUITests.m */; };
+		CC0C7F73CD9C17528329D57A /* libPods-YTAFNetworkingInterpretationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F099090967DA373368622037 /* libPods-YTAFNetworkingInterpretationTests.a */; };
+		F9EFBD866A805DF02D510D7E /* libPods-YTAFNetworkingInterpretationUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C26CB53EA4AB280A6891E7 /* libPods-YTAFNetworkingInterpretationUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		109D4289B18CBD49A4E6380F /* Pods-YTAFNetworkingInterpretationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTAFNetworkingInterpretationTests.debug.xcconfig"; path = "Target Support Files/Pods-YTAFNetworkingInterpretationTests/Pods-YTAFNetworkingInterpretationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		276D4FED860471835EB76B74 /* Pods-YTAFNetworkingInterpretation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTAFNetworkingInterpretation.release.xcconfig"; path = "Target Support Files/Pods-YTAFNetworkingInterpretation/Pods-YTAFNetworkingInterpretation.release.xcconfig"; sourceTree = "<group>"; };
+		324BC148A1E652B73E4B16D7 /* Pods-YTAFNetworkingInterpretationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTAFNetworkingInterpretationUITests.debug.xcconfig"; path = "Target Support Files/Pods-YTAFNetworkingInterpretationUITests/Pods-YTAFNetworkingInterpretationUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		344921BDE33784D4990E9362 /* libPods-YTAFNetworkingInterpretation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YTAFNetworkingInterpretation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35EF1C15BC0BAFCB755C4F55 /* Pods-YTAFNetworkingInterpretationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTAFNetworkingInterpretationUITests.release.xcconfig"; path = "Target Support Files/Pods-YTAFNetworkingInterpretationUITests/Pods-YTAFNetworkingInterpretationUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6A41B60DF12211E7E6696B68 /* Pods-YTAFNetworkingInterpretationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTAFNetworkingInterpretationTests.release.xcconfig"; path = "Target Support Files/Pods-YTAFNetworkingInterpretationTests/Pods-YTAFNetworkingInterpretationTests.release.xcconfig"; sourceTree = "<group>"; };
+		A5C26CB53EA4AB280A6891E7 /* libPods-YTAFNetworkingInterpretationUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YTAFNetworkingInterpretationUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB3C4124224B227500865F06 /* YTAFNetworkingInterpretation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTAFNetworkingInterpretation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB3C4127224B227500865F06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AB3C4128224B227500865F06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -53,6 +63,8 @@
 		AB3C414A224B227700865F06 /* YTAFNetworkingInterpretationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTAFNetworkingInterpretationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB3C414E224B227700865F06 /* YTAFNetworkingInterpretationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTAFNetworkingInterpretationUITests.m; sourceTree = "<group>"; };
 		AB3C4150224B227700865F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF529D40F66605FC8CF8481E /* Pods-YTAFNetworkingInterpretation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTAFNetworkingInterpretation.debug.xcconfig"; path = "Target Support Files/Pods-YTAFNetworkingInterpretation/Pods-YTAFNetworkingInterpretation.debug.xcconfig"; sourceTree = "<group>"; };
+		F099090967DA373368622037 /* libPods-YTAFNetworkingInterpretationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YTAFNetworkingInterpretationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41352FF7E17D10C4E3D979A6 /* libPods-YTAFNetworkingInterpretation.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC0C7F73CD9C17528329D57A /* libPods-YTAFNetworkingInterpretationTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +88,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9EFBD866A805DF02D510D7E /* libPods-YTAFNetworkingInterpretationUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		141A8DFC01D12520F2124A90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				344921BDE33784D4990E9362 /* libPods-YTAFNetworkingInterpretation.a */,
+				F099090967DA373368622037 /* libPods-YTAFNetworkingInterpretationTests.a */,
+				A5C26CB53EA4AB280A6891E7 /* libPods-YTAFNetworkingInterpretationUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AB3C411B224B227500865F06 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +112,8 @@
 				AB3C4142224B227700865F06 /* YTAFNetworkingInterpretationTests */,
 				AB3C414D224B227700865F06 /* YTAFNetworkingInterpretationUITests */,
 				AB3C4125224B227500865F06 /* Products */,
+				C3604937472238BAF3F24B5C /* Pods */,
+				141A8DFC01D12520F2124A90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +162,19 @@
 			path = YTAFNetworkingInterpretationUITests;
 			sourceTree = "<group>";
 		};
+		C3604937472238BAF3F24B5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF529D40F66605FC8CF8481E /* Pods-YTAFNetworkingInterpretation.debug.xcconfig */,
+				276D4FED860471835EB76B74 /* Pods-YTAFNetworkingInterpretation.release.xcconfig */,
+				109D4289B18CBD49A4E6380F /* Pods-YTAFNetworkingInterpretationTests.debug.xcconfig */,
+				6A41B60DF12211E7E6696B68 /* Pods-YTAFNetworkingInterpretationTests.release.xcconfig */,
+				324BC148A1E652B73E4B16D7 /* Pods-YTAFNetworkingInterpretationUITests.debug.xcconfig */,
+				35EF1C15BC0BAFCB755C4F55 /* Pods-YTAFNetworkingInterpretationUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,6 +182,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB3C4153224B227700865F06 /* Build configuration list for PBXNativeTarget "YTAFNetworkingInterpretation" */;
 			buildPhases = (
+				17DEAB238C2E1755FEFFA047 /* [CP] Check Pods Manifest.lock */,
 				AB3C4120224B227500865F06 /* Sources */,
 				AB3C4121224B227500865F06 /* Frameworks */,
 				AB3C4122224B227500865F06 /* Resources */,
@@ -159,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB3C4156224B227700865F06 /* Build configuration list for PBXNativeTarget "YTAFNetworkingInterpretationTests" */;
 			buildPhases = (
+				3F1EC5C3448CE4FC9F591A94 /* [CP] Check Pods Manifest.lock */,
 				AB3C413B224B227700865F06 /* Sources */,
 				AB3C413C224B227700865F06 /* Frameworks */,
 				AB3C413D224B227700865F06 /* Resources */,
@@ -177,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB3C4159224B227700865F06 /* Build configuration list for PBXNativeTarget "YTAFNetworkingInterpretationUITests" */;
 			buildPhases = (
+				01F434010D78B9836B1291EA /* [CP] Check Pods Manifest.lock */,
 				AB3C4146224B227700865F06 /* Sources */,
 				AB3C4147224B227700865F06 /* Frameworks */,
 				AB3C4148224B227700865F06 /* Resources */,
@@ -259,6 +302,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01F434010D78B9836B1291EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YTAFNetworkingInterpretationUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17DEAB238C2E1755FEFFA047 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YTAFNetworkingInterpretation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F1EC5C3448CE4FC9F591A94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YTAFNetworkingInterpretationTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AB3C4120224B227500865F06 /* Sources */ = {
@@ -437,10 +549,11 @@
 		};
 		AB3C4154224B227700865F06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF529D40F66605FC8CF8481E /* Pods-YTAFNetworkingInterpretation.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2WPDWJNPEB;
+				DEVELOPMENT_TEAM = P9D3NKT33P;
 				INFOPLIST_FILE = YTAFNetworkingInterpretation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -454,10 +567,11 @@
 		};
 		AB3C4155224B227700865F06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 276D4FED860471835EB76B74 /* Pods-YTAFNetworkingInterpretation.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2WPDWJNPEB;
+				DEVELOPMENT_TEAM = P9D3NKT33P;
 				INFOPLIST_FILE = YTAFNetworkingInterpretation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -471,6 +585,7 @@
 		};
 		AB3C4157224B227700865F06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 109D4289B18CBD49A4E6380F /* Pods-YTAFNetworkingInterpretationTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -490,6 +605,7 @@
 		};
 		AB3C4158224B227700865F06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A41B60DF12211E7E6696B68 /* Pods-YTAFNetworkingInterpretationTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -509,6 +625,7 @@
 		};
 		AB3C415A224B227700865F06 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 324BC148A1E652B73E4B16D7 /* Pods-YTAFNetworkingInterpretationUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2WPDWJNPEB;
@@ -527,6 +644,7 @@
 		};
 		AB3C415B224B227700865F06 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35EF1C15BC0BAFCB755C4F55 /* Pods-YTAFNetworkingInterpretationUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2WPDWJNPEB;
