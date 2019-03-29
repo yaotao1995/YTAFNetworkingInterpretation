@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		41352FF7E17D10C4E3D979A6 /* libPods-YTAFNetworkingInterpretation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 344921BDE33784D4990E9362 /* libPods-YTAFNetworkingInterpretation.a */; };
+		AB1448D0224DB82100F2BCF3 /* YTAFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1448CF224DB82100F2BCF3 /* YTAFNetworkActivityIndicatorManager.m */; };
+		AB1E832A224C62C100CBB2FF /* YTNSURLSessionObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1E8329224C62C100CBB2FF /* YTNSURLSessionObject.m */; };
+		AB1E832D224C636F00CBB2FF /* YTAFNetworkingObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1E832C224C636F00CBB2FF /* YTAFNetworkingObject.m */; };
 		AB3C4129224B227500865F06 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3C4128224B227500865F06 /* AppDelegate.m */; };
 		AB3C412C224B227500865F06 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3C412B224B227500865F06 /* ViewController.m */; };
 		AB3C412F224B227500865F06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB3C412D224B227500865F06 /* Main.storyboard */; };
@@ -46,6 +49,13 @@
 		35EF1C15BC0BAFCB755C4F55 /* Pods-YTAFNetworkingInterpretationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTAFNetworkingInterpretationUITests.release.xcconfig"; path = "Target Support Files/Pods-YTAFNetworkingInterpretationUITests/Pods-YTAFNetworkingInterpretationUITests.release.xcconfig"; sourceTree = "<group>"; };
 		6A41B60DF12211E7E6696B68 /* Pods-YTAFNetworkingInterpretationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTAFNetworkingInterpretationTests.release.xcconfig"; path = "Target Support Files/Pods-YTAFNetworkingInterpretationTests/Pods-YTAFNetworkingInterpretationTests.release.xcconfig"; sourceTree = "<group>"; };
 		A5C26CB53EA4AB280A6891E7 /* libPods-YTAFNetworkingInterpretationUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YTAFNetworkingInterpretationUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB1448CE224DB82100F2BCF3 /* YTAFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTAFNetworkActivityIndicatorManager.h; sourceTree = "<group>"; };
+		AB1448CF224DB82100F2BCF3 /* YTAFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTAFNetworkActivityIndicatorManager.m; sourceTree = "<group>"; };
+		AB1448D3224DB88300F2BCF3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		AB1E8328224C62C100CBB2FF /* YTNSURLSessionObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTNSURLSessionObject.h; sourceTree = "<group>"; };
+		AB1E8329224C62C100CBB2FF /* YTNSURLSessionObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTNSURLSessionObject.m; sourceTree = "<group>"; };
+		AB1E832B224C636F00CBB2FF /* YTAFNetworkingObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTAFNetworkingObject.h; sourceTree = "<group>"; };
+		AB1E832C224C636F00CBB2FF /* YTAFNetworkingObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTAFNetworkingObject.m; sourceTree = "<group>"; };
 		AB3C4124224B227500865F06 /* YTAFNetworkingInterpretation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YTAFNetworkingInterpretation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB3C4127224B227500865F06 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AB3C4128224B227500865F06 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +115,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AB1448D1224DB83400F2BCF3 /* YTAFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				AB1E832B224C636F00CBB2FF /* YTAFNetworkingObject.h */,
+				AB1E832C224C636F00CBB2FF /* YTAFNetworkingObject.m */,
+				AB1448CE224DB82100F2BCF3 /* YTAFNetworkActivityIndicatorManager.h */,
+				AB1448CF224DB82100F2BCF3 /* YTAFNetworkActivityIndicatorManager.m */,
+			);
+			path = YTAFNetworking;
+			sourceTree = "<group>";
+		};
+		AB1448D2224DB86900F2BCF3 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				AB1E8328224C62C100CBB2FF /* YTNSURLSessionObject.h */,
+				AB1E8329224C62C100CBB2FF /* YTNSURLSessionObject.m */,
+			);
+			path = NSURLSession;
+			sourceTree = "<group>";
+		};
 		AB3C411B224B227500865F06 = {
 			isa = PBXGroup;
 			children = (
@@ -130,10 +160,13 @@
 		AB3C4126224B227500865F06 /* YTAFNetworkingInterpretation */ = {
 			isa = PBXGroup;
 			children = (
+				AB1448D2224DB86900F2BCF3 /* NSURLSession */,
+				AB1448D1224DB83400F2BCF3 /* YTAFNetworking */,
 				AB3C4127224B227500865F06 /* AppDelegate.h */,
 				AB3C4128224B227500865F06 /* AppDelegate.m */,
 				AB3C412A224B227500865F06 /* ViewController.h */,
 				AB3C412B224B227500865F06 /* ViewController.m */,
+				AB1448D3224DB88300F2BCF3 /* PrefixHeader.pch */,
 				AB3C412D224B227500865F06 /* Main.storyboard */,
 				AB3C4133224B227700865F06 /* Assets.xcassets */,
 				AB3C4135224B227700865F06 /* LaunchScreen.storyboard */,
@@ -377,9 +410,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB1E832D224C636F00CBB2FF /* YTAFNetworkingObject.m in Sources */,
 				AB3C4132224B227500865F06 /* YTAFNetworkingInterpretation.xcdatamodeld in Sources */,
+				AB1448D0224DB82100F2BCF3 /* YTAFNetworkActivityIndicatorManager.m in Sources */,
 				AB3C412C224B227500865F06 /* ViewController.m in Sources */,
 				AB3C413A224B227700865F06 /* main.m in Sources */,
+				AB1E832A224C62C100CBB2FF /* YTNSURLSessionObject.m in Sources */,
 				AB3C4129224B227500865F06 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -554,12 +590,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P9D3NKT33P;
+				GCC_PREFIX_HEADER = YTAFNetworkingInterpretation/PrefixHeader.pch;
 				INFOPLIST_FILE = YTAFNetworkingInterpretation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yiqianproject.com.YTAFNetworkingInterpretation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaotao.YTAFNetworkingInterpretation.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -572,12 +609,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = P9D3NKT33P;
+				GCC_PREFIX_HEADER = YTAFNetworkingInterpretation/PrefixHeader.pch;
 				INFOPLIST_FILE = YTAFNetworkingInterpretation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.yiqianproject.com.YTAFNetworkingInterpretation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yaotao.YTAFNetworkingInterpretation.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
