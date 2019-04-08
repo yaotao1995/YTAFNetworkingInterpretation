@@ -20,6 +20,7 @@
 		AB3C413A224B227700865F06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3C4139224B227700865F06 /* main.m */; };
 		AB3C4144224B227700865F06 /* YTAFNetworkingInterpretationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3C4143224B227700865F06 /* YTAFNetworkingInterpretationTests.m */; };
 		AB3C414F224B227700865F06 /* YTAFNetworkingInterpretationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB3C414E224B227700865F06 /* YTAFNetworkingInterpretationUITests.m */; };
+		ABA7C841225AEE73005EB645 /* YTAFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABA7C840225AEE73005EB645 /* YTAFNetworkReachabilityManager.m */; };
 		CC0C7F73CD9C17528329D57A /* libPods-YTAFNetworkingInterpretationTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F099090967DA373368622037 /* libPods-YTAFNetworkingInterpretationTests.a */; };
 		F9EFBD866A805DF02D510D7E /* libPods-YTAFNetworkingInterpretationUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C26CB53EA4AB280A6891E7 /* libPods-YTAFNetworkingInterpretationUITests.a */; };
 /* End PBXBuildFile section */
@@ -73,6 +74,8 @@
 		AB3C414A224B227700865F06 /* YTAFNetworkingInterpretationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YTAFNetworkingInterpretationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB3C414E224B227700865F06 /* YTAFNetworkingInterpretationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTAFNetworkingInterpretationUITests.m; sourceTree = "<group>"; };
 		AB3C4150224B227700865F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABA7C83F225AEE73005EB645 /* YTAFNetworkReachabilityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YTAFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		ABA7C840225AEE73005EB645 /* YTAFNetworkReachabilityManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YTAFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		DF529D40F66605FC8CF8481E /* Pods-YTAFNetworkingInterpretation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YTAFNetworkingInterpretation.debug.xcconfig"; path = "Target Support Files/Pods-YTAFNetworkingInterpretation/Pods-YTAFNetworkingInterpretation.debug.xcconfig"; sourceTree = "<group>"; };
 		F099090967DA373368622037 /* libPods-YTAFNetworkingInterpretationTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YTAFNetworkingInterpretationTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -120,6 +123,8 @@
 			children = (
 				AB1E832B224C636F00CBB2FF /* YTAFNetworkingObject.h */,
 				AB1E832C224C636F00CBB2FF /* YTAFNetworkingObject.m */,
+				ABA7C83F225AEE73005EB645 /* YTAFNetworkReachabilityManager.h */,
+				ABA7C840225AEE73005EB645 /* YTAFNetworkReachabilityManager.m */,
 				AB1448CE224DB82100F2BCF3 /* YTAFNetworkActivityIndicatorManager.h */,
 				AB1448CF224DB82100F2BCF3 /* YTAFNetworkActivityIndicatorManager.m */,
 			);
@@ -412,6 +417,7 @@
 			files = (
 				AB1E832D224C636F00CBB2FF /* YTAFNetworkingObject.m in Sources */,
 				AB3C4132224B227500865F06 /* YTAFNetworkingInterpretation.xcdatamodeld in Sources */,
+				ABA7C841225AEE73005EB645 /* YTAFNetworkReachabilityManager.m in Sources */,
 				AB1448D0224DB82100F2BCF3 /* YTAFNetworkActivityIndicatorManager.m in Sources */,
 				AB3C412C224B227500865F06 /* ViewController.m in Sources */,
 				AB3C413A224B227700865F06 /* main.m in Sources */,
@@ -589,7 +595,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P9D3NKT33P;
+				DEVELOPMENT_TEAM = X3X53AZ2J9;
 				GCC_PREFIX_HEADER = YTAFNetworkingInterpretation/PrefixHeader.pch;
 				INFOPLIST_FILE = YTAFNetworkingInterpretation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -608,7 +614,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = P9D3NKT33P;
+				DEVELOPMENT_TEAM = X3X53AZ2J9;
 				GCC_PREFIX_HEADER = YTAFNetworkingInterpretation/PrefixHeader.pch;
 				INFOPLIST_FILE = YTAFNetworkingInterpretation/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
