@@ -121,12 +121,9 @@
 		AB1448D1224DB83400F2BCF3 /* YTAFNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				ABA7C845225C48A4005EB645 /* Reachability */,
 				AB1E832B224C636F00CBB2FF /* YTAFNetworkingObject.h */,
 				AB1E832C224C636F00CBB2FF /* YTAFNetworkingObject.m */,
-				ABA7C83F225AEE73005EB645 /* YTAFNetworkReachabilityManager.h */,
-				ABA7C840225AEE73005EB645 /* YTAFNetworkReachabilityManager.m */,
-				AB1448CE224DB82100F2BCF3 /* YTAFNetworkActivityIndicatorManager.h */,
-				AB1448CF224DB82100F2BCF3 /* YTAFNetworkActivityIndicatorManager.m */,
 			);
 			path = YTAFNetworking;
 			sourceTree = "<group>";
@@ -198,6 +195,17 @@
 				AB3C4150224B227700865F06 /* Info.plist */,
 			);
 			path = YTAFNetworkingInterpretationUITests;
+			sourceTree = "<group>";
+		};
+		ABA7C845225C48A4005EB645 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				ABA7C83F225AEE73005EB645 /* YTAFNetworkReachabilityManager.h */,
+				ABA7C840225AEE73005EB645 /* YTAFNetworkReachabilityManager.m */,
+				AB1448CE224DB82100F2BCF3 /* YTAFNetworkActivityIndicatorManager.h */,
+				AB1448CF224DB82100F2BCF3 /* YTAFNetworkActivityIndicatorManager.m */,
+			);
+			path = Reachability;
 			sourceTree = "<group>";
 		};
 		C3604937472238BAF3F24B5C /* Pods */ = {

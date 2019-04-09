@@ -7,7 +7,7 @@
 //
 
 #import "YTAFNetworkReachabilityManager.h"
-
+/*                                                              代码在底部                                       */
 @implementation YTAFNetworkReachabilityManager
 
 /*
@@ -80,7 +80,7 @@
                 return manager;
             }
  
-        6. 这里我贴一段使用 SystemConfiguration.framework 反汇编出来的 SCNetworkReachabilityCreateWithAddress函数的伪代码 有兴趣的可以看下
+        6. 这里我贴一段使用 SystemConfiguration.framework 反汇编出来的 SCNetworkReachabilityCreateWithAddress函数的伪代码 有兴趣可以看下
              int _SCNetworkReachabilityCreateWithAddress(int arg0, int arg1) {
                 r7 = (sp - 0x14) + 0xc;
                 sp = sp - 0x24;
@@ -132,7 +132,7 @@
                 SCNetworkReachabilityScheduleWithRunLoop(self.networkReachability, CFRunLoopGetMain(), kCFRunLoopCommonModes);
                 // 异步
                 dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0),^{
-                    //SCNetworkReachabilityFlags 状态标识
+                    //SCNetworkReachabilityFlags 状态标识 就是这个了，我们最终要得到的状态标识就是这个flags
                     SCNetworkReachabilityFlags flags;
                     //SCNetworkReachabilityGetFlags 获取网络状态丢到 flags ，最后将网络状态callback
                     if (SCNetworkReachabilityGetFlags(self.networkReachability, &flags)) {
